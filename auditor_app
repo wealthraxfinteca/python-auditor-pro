@@ -1,0 +1,11 @@
+auditor_app/
+├── app.py                    # Main Streamlit application
+├── auditor.py                # Core audit engine
+├── fifo_engine.py            # FIFO costing engine
+├── report_generator.py       # PDF & Excel report generator
+├── chart_generator.py        # Visualization engine
+├── file_scanner.py           # Multi-source file scanner
+├── requirements.txt          # Dependencies
+├── .streamlit/
+│   └── config.toml          # Streamlit configuration
+└── README.md
